@@ -1,0 +1,13 @@
+# bbox2sam3 dependencies
+# Gebruik ~/dev/venv waar deze al geïnstalleerd zijn
+
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+
+# PyTorch met CUDA (al in ~/dev/venv)
+# torch>=2.1.0
+
+# SAM3 (lokale installatie in ~/projects/sam3)
+# Voeg toe aan PYTHONPATH of installeer met: pip install -e ~/projects/sam3

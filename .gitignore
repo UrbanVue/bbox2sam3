@@ -1,0 +1,40 @@
+# Project instructions (not for public)
+CLAUDE.md
+
+# Output
+output/
+!examples/output/
+*.png
+!examples/input/*.png
+!examples/output/*.png
+!examples/output/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
